@@ -1,0 +1,22 @@
+하나의 화면을 활동이라고 한다면 Activity라고 할 수 있음
+
+하나는 화면    +     이 화면을 가지고 어떤 것을 처리할지
+(XML파일)             (자바)
+activity_main.xml     MainActivity.java
+
+XML은 HTML의 삼촌뻘인데
+<> 기호를 "태그"라고 부름
+하나의 뷰(view) 당 <> 태그가 하나씩 만들어짐
+cf) 요소(component)
+
+처리순서
+1) 화면에서 처리하고자 하는 View를 찾으세요.
+    findby
+    reStart button!
+2) 클릭했을 때, DietActivity가 열리도록 처리
+    액티비티를 넘길 때는...
+    2-1) 액티비티를 넘길 수 있는 부품을 셋팅.
+          Intent 복사(new)해서 가지고 온 다음.
+          현재 Activity에서 가야 할 Activity 세팅
+    2-2) Intent 부품 시작
+    2-3) 

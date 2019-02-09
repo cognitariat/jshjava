@@ -1,0 +1,7 @@
+
+안드로이드 프로그래밍 순서
+1. 일단 화면(Layout)을 만들어라
+   (XML파일; activity_main.xml)
+2. 이 화면을 가지고 어떻게 처리할지를 프로그래밍
+   (자바파일; MainActivity.java)
+
